@@ -1,12 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native';
 // import Login from './screens/Login';
 // import First from './screens/First';
-import Aftermarkattendance from './screens/Aftermarkattendance';
+import Aftergetmyempattendance from './screens/Aftergetmyempattendance';
 
 export const App=()=>{
 return <View>
   {/* <Login/> */}
-  <Aftermarkattendance/>
+  <Aftergetmyempattendance/>
 </View>
 } 
 
