@@ -1,12 +1,12 @@
 import { Text, TextInput, View,TouchableOpacity } from "react-native";
 // import { useState } from "react";
 import { styles } from "./styles";
-const Aftersearchempid = () => {
+const Afterlogin = () => {
 
   return (
     <>
       <View style={styles.container}>
-        <Text style={styles.text}>Buttons</Text>
+        <Text style={styles.text}>After Login Buttons</Text>
 
         <TouchableOpacity style={styles.fourButton} onPress={()=>{
             console.log("search emp cliked")
@@ -36,4 +36,4 @@ const Aftersearchempid = () => {
   );
 };
 
-export default Aftersearchempid;
+export default Afterlogin;
