@@ -6,7 +6,7 @@ const Afterlogin = () => {
   return (
     <>
       <View style={styles.container}>
-        <Text style={styles.text}>After Login Buttons</Text>
+        <Text style={styles.text}>Buttons</Text>
 
         <TouchableOpacity style={styles.fourButton} onPress={()=>{
             console.log("search emp cliked")
