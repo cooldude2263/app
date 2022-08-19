@@ -3,7 +3,7 @@ import { styles } from "./styles";
 import { useState } from "react";
 const Register = () => {
     
-    const [EmpId,setEmpId]=useState(null);
+    const [empId,setEmpId]=useState(null);
     const [superviserId,setSupervisorId]=useState(null);
     const [name,setName]=useState(null);
     const [fatherName,setFatherName]=useState(null);
